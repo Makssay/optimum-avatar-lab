@@ -30,6 +30,7 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
 
 # vercel
 .vercel
@@ -43,7 +44,6 @@ next-env.d.ts
 # local Codex/dev artifacts
 .codex-dev*.log
 snapshots/
-mascot/
 *.zip
 *.exe
 *.pdf
@@ -51,4 +51,3 @@ mascot/
 oDD7fhAX_400x400.jpg
 XJ_WwyWB_400x400.jpg
 Company_Page_Banner.webp
-optimum-logo-white.svg
